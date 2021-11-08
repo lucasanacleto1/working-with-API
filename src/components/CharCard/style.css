@@ -1,0 +1,65 @@
+.Alive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 7rem;
+  margin: 5px;
+  background-color: #f1f7fe;
+  align-items: center;
+  padding-bottom: 13px;
+  border-radius: 15px;
+}
+
+.Alive:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+.Alive img {
+  width: 100px;
+}
+
+.unknown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 7rem;
+  margin: 5px;
+  background-color: #f8ccce;
+  align-items: center;
+  padding-bottom: 13px;
+  border-radius: 15px;
+}
+
+.unknown:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+
+.unknown img {
+  width: 100px;
+}
+
+.Dead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 7rem;
+  margin: 5px;
+  background-color: #f8ccce;
+  align-items: center;
+  padding-bottom: 13px;
+  border-radius: 15px;
+}
+
+.Dead:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+
+.Dead img {
+  width: 100px;
+}
+
+.specie-name {
+  color: darkblue;
+}

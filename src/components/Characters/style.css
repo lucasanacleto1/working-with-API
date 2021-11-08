@@ -1,0 +1,14 @@
+.character-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.all-content {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
